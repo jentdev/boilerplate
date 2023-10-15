@@ -15,7 +15,6 @@ in browser, go to http://localhost:3000/test (replace test with the name of your
 
 this is just for a quick test before you create a route for it.
 */
-
 router.get('/test', (req, res) => {
     res.render('test');
 });

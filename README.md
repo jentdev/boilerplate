@@ -17,6 +17,7 @@ Feel free to fork your own copy.
 ### Install
 1. Install [Node.js](https://nodejs.org/en)
 2. In the terminal, run `npm install`
+3. In `config` folder, change `config-example.env` to `config.env`
 
 ### Start server
 1. In the terminal, run `npm start`
