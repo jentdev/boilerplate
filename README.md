@@ -31,8 +31,7 @@ Feel free to fork your own copy.
 2. All EJS files should be in `views` folder
 3. All CSS, JS, and image files should be in their own folder in `public` folder
 4. You can copy everything from `dashboard.ejs` to your newly created EJS file, then replace the content inside `<body>`
-5. To link to your own JS file from an EJS file, add `<%- include('/js/your-js-file.js') %>` to the bottom of the EJS file (where you would add your `<script>` tag)
-6. To view your new EJS file, go to `routes/index.js` and follow the instruction there
+5. To view your new EJS file, go to `routes/index.js` and follow the instruction there
 
 ### (optional - only do this if you're working on a project with other people)
 1. Run `git checkout -b your-own-branch` to checkout (create) a new branch to work on
