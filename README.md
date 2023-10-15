@@ -5,9 +5,9 @@
 4. Run `git clone paste-the-copied-url-here`
 5. `cd` into the cloned repo
 6. Run `git checkout -b your-own-branch` to checkout (create) a new branch to work on
-7. `*make changes*`
-8. Before you push your commits, run `git pull`
-9. Do your `git add .`, `git commit -m 'msg'`
+7. `*skip to 'Install' section*`
+8. Before you push your commit, run `git pull` to make sure your local repo is up-to-date with the original remote repo
+9. Do your `git add .` and `git commit -m 'msg'`
 10. `git push -u origin your-own-branch` to push
 11. Go to your cloned repo and make a pull request
 12. The `base` should be the original repo, `head` is your own local copy `your-own-branch`
