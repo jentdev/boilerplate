@@ -1,5 +1,7 @@
-# period-app-for-teens
-An app built to educate teens about menstruation, reduce stigma, and help teenagers keep track of their period. 
+# boilerplate
+A Node-Express boilerplate created for our team for the Women Who Code Hackathon 2023.<br>
+This will set up a basic Express server on your local machine.<br>
+Feel free to fork your own copy.
 
 <br><br>
 
@@ -11,14 +13,6 @@ An app built to educate teens about menstruation, reduce stigma, and help teenag
 3. In the terminal, `cd` into where you want to save this repo
 4. Run `git clone paste-the-copied-url-here`
 5. `cd` into the cloned repo
-6. Run `git checkout -b your-own-branch` to checkout (create) a new branch to work on
-7. *---skip to 'Install' section---*
-8. Before you push your commit, run `git pull` to make sure your local repo is up-to-date with the original remote repo
-9. Do your `git add .` and `git commit -m 'msg'`
-10. `git push -u origin your-own-branch` to push
-11. Go to your cloned repo and make a pull request
-12. The `base` should be the original repo, `head` is your own local copy `your-own-branch`
-13. Create pull request
 
 ### Install
 1. Install [Node.js](https://nodejs.org/en)
@@ -39,3 +33,12 @@ An app built to educate teens about menstruation, reduce stigma, and help teenag
 4. You can copy everything from `dashboard.ejs` to your newly created EJS file, then replace the content inside `<body>`
 5. To link to your own JS file from an EJS file, add `<%- include('/js/your-js-file.js') %>` to the bottom of the EJS file (where you would add your `<script>` tag)
 6. To view your new EJS file, go to `routes/index.js` and follow the instruction there
+
+### (optional - only do this if you're working on a project with other people)
+1. Run `git checkout -b your-own-branch` to checkout (create) a new branch to work on
+2. Before you push your commit, run `git pull` to make sure your local repo is up-to-date with the original remote repo
+3. Do your `git add .` and `git commit -m 'msg'`
+4. `git push -u origin your-own-branch` to push
+5. Go to your cloned repo and make a pull request
+6. The `base` should be the original repo, `head` is your own local copy `your-own-branch`
+7. Create pull request
