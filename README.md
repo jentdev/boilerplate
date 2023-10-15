@@ -1,4 +1,4 @@
-### Clone this repo to your computer
+### Clone this repo to your local machine
 1. `fork` this repo to your own github account
 2. From your forked repo, click on `<> Code`, then copy the HTTPS URL
 3. In the terminal, `cd` into where you want to save this repo
