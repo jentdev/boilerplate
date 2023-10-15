@@ -20,7 +20,7 @@ Feel free to fork your own copy.
 3. In `config` folder, change `config-example.env` to `config.env`
 
 ### Start server
-1. In the terminal, run `npm start`
+1. In the terminal, run `npm run dev`
 2. If you see `Server is running on port 3000`, you have successfully started the server 
 3. Open browser, go to `localhost:3000`
 4. You should be able to see content from `views/dashboard.ejs` file
