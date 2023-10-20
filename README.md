@@ -36,9 +36,10 @@ Feel free to fork your own copy.
 
 ### (optional - only do this if you're working on a project with other people)
 1. Run `git checkout -b your-own-branch` to checkout (create) a new branch to work on
-2. Before you push your commit, run `git pull` to make sure your local repo is up-to-date with the original remote repo
-3. Do your `git add .` and `git commit -m 'msg'`
-4. `git push -u origin your-own-branch` to push
-5. Go to your cloned repo and make a pull request
-6. The `base` should be the original repo, `head` is your own local copy `your-own-branch`
-7. Create pull request
+2. Before pushing your commit, go to your forked repo, `sync fork` if needed
+3. Run `git pull` in terminal to make sure your local branch is up-to-date
+4. Do your `git add .` and `git commit -m 'msg'`
+5. `git push -u origin your-own-branch` to push
+6. Go to your cloned repo and make a pull request
+7. The `base` should be the original repo, `head` is your own local copy `your-own-branch`
+8. Create pull request
